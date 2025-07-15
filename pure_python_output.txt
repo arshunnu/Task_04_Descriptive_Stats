@@ -1,0 +1,958 @@
+--------------------------------------------------------------------------------
+
+Processing Dataset 1: C:/Users/Arshunnu Bare/Desktop/SEM4/period/2024_fb_ads_president_scored_anon.csv
+Descriptive Stats for the Dataset (Overall):
+Stats for page_id:
+  count: 246745
+  unique_values: 4475
+  most_common_value: 4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d
+  most_common_count: 55503
+----------------------------------------
+Stats for ad_id:
+  count: 246745
+  unique_values: 246745
+  most_common_value: 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc
+  most_common_count: 1
+----------------------------------------
+Stats for ad_creation_time:
+  count: 246745
+  unique_values: 547
+  most_common_value: 2024-10-27
+  most_common_count: 8619
+----------------------------------------
+Stats for bylines:
+  count: 245736
+  unique_values: 3790
+  most_common_value: HARRIS FOR PRESIDENT
+  most_common_count: 49788
+----------------------------------------
+Stats for currency:
+  count: 246745
+  unique_values: 18
+  most_common_value: USD
+  most_common_count: 246599
+----------------------------------------
+Stats for delivery_by_region:
+  count: 246745
+  unique_values: 141122
+  most_common_value: {}
+  most_common_count: 30989
+----------------------------------------
+Stats for demographic_distribution:
+  count: 246745
+  unique_values: 215622
+  most_common_value: {}
+  most_common_count: 30989
+----------------------------------------
+Stats for estimated_audience_size:
+  count: 246745
+  mean: 556462.8559687126
+  min: 0.0
+  max: 1000001.0
+  std_dev: 409863.9282788759
+----------------------------------------
+Stats for estimated_impressions:
+  count: 246745
+  mean: 45601.52595189366
+  min: 499.0
+  max: 1000000.0
+  std_dev: 136790.49271020087
+----------------------------------------
+Stats for estimated_spend:
+  count: 246745
+  mean: 1061.2914344768892
+  min: 49.0
+  max: 474999.0
+  std_dev: 4992.550631940592
+----------------------------------------
+Stats for publisher_platforms:
+  count: 246745
+  unique_values: 9
+  most_common_value: ['facebook', 'instagram']
+  most_common_count: 214434
+----------------------------------------
+Stats for illuminating_scored_message:
+  count: 246745
+  unique_values: 26338
+  most_common_value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  most_common_count: 5972
+----------------------------------------
+Stats for illuminating_mentions:
+  count: 246745
+  unique_values: 278
+  most_common_value: []
+  most_common_count: 73205
+----------------------------------------
+Stats for scam_illuminating:
+  count: 246745
+  mean: 0.07163265719670105
+  min: 0.0
+  max: 1.0
+  std_dev: 0.257878691674285
+----------------------------------------
+Stats for election_integrity_Truth_illuminating:
+  count: 246745
+  mean: 0.05008814768283045
+  min: 0.0
+  max: 1.0
+  std_dev: 0.21812685562427525
+----------------------------------------
+Stats for advocacy_msg_type_illuminating:
+  count: 246745
+  mean: 0.5486311779367363
+  min: 0.0
+  max: 1.0
+  std_dev: 0.4976293887347144
+----------------------------------------
+Stats for issue_msg_type_illuminating:
+  count: 246745
+  mean: 0.38164907090315914
+  min: 0.0
+  max: 1.0
+  std_dev: 0.48579116663635885
+----------------------------------------
+Stats for attack_msg_type_illuminating:
+  count: 246745
+  mean: 0.27185555938316885
+  min: 0.0
+  max: 1.0
+  std_dev: 0.44491585071295586
+----------------------------------------
+Stats for image_msg_type_illuminating:
+  count: 246745
+  mean: 0.22270360088350322
+  min: 0.0
+  max: 1.0
+  std_dev: 0.4160609414941812
+----------------------------------------
+Stats for cta_msg_type_illuminating:
+  count: 246745
+  mean: 0.5727694583476869
+  min: 0.0
+  max: 1.0
+  std_dev: 0.4946762637642767
+----------------------------------------
+Stats for engagement_cta_subtype_illuminating:
+  count: 246745
+  mean: 0.12486980485926767
+  min: 0.0
+  max: 1.0
+  std_dev: 0.33057122786727233
+----------------------------------------
+Stats for fundraising_cta_subtype_illuminating:
+  count: 246745
+  mean: 0.22848689943058623
+  min: 0.0
+  max: 1.0
+  std_dev: 0.4198578762143011
+----------------------------------------
+Stats for voting_cta_subtype_illuminating:
+  count: 246745
+  mean: 0.1438448600782184
+  min: 0.0
+  max: 1.0
+  std_dev: 0.35093235289339764
+----------------------------------------
+Stats for covid_topic_illuminating:
+  count: 246745
+  mean: 0.024875884009807697
+  min: 0.0
+  max: 1.0
+  std_dev: 0.15574682791164093
+----------------------------------------
+Stats for economy_topic_illuminating:
+  count: 246745
+  mean: 0.12212202881517356
+  min: 0.0
+  max: 1.0
+  std_dev: 0.3274266923957781
+----------------------------------------
+Stats for education_topic_illuminating:
+  count: 246745
+  mean: 0.01432653143934021
+  min: 0.0
+  max: 1.0
+  std_dev: 0.11883300019884126
+----------------------------------------
+Stats for environment_topic_illuminating:
+  count: 246745
+  mean: 0.02124865752092241
+  min: 0.0
+  max: 1.0
+  std_dev: 0.14421217727529445
+----------------------------------------
+Stats for foreign_policy_topic_illuminating:
+  count: 246745
+  mean: 0.005264544367667025
+  min: 0.0
+  max: 1.0
+  std_dev: 0.07236593770737645
+----------------------------------------
+Stats for governance_topic_illuminating:
+  count: 246745
+  mean: 0.025641856977851627
+  min: 0.0
+  max: 1.0
+  std_dev: 0.15806439241201364
+----------------------------------------
+Stats for health_topic_illuminating:
+  count: 246745
+  mean: 0.10918964923301384
+  min: 0.0
+  max: 1.0
+  std_dev: 0.31187701058812467
+----------------------------------------
+Stats for immigration_topic_illuminating:
+  count: 246745
+  mean: 0.03356906928205232
+  min: 0.0
+  max: 1.0
+  std_dev: 0.18011714762783995
+----------------------------------------
+Stats for lgbtq_issues_topic_illuminating:
+  count: 246745
+  mean: 0.0032300553202699142
+  min: 0.0
+  max: 1.0
+  std_dev: 0.05674171360558219
+----------------------------------------
+Stats for military_topic_illuminating:
+  count: 246745
+  mean: 0.002176335893331172
+  min: 0.0
+  max: 1.0
+  std_dev: 0.04660042333939221
+----------------------------------------
+Stats for race_and_ethnicity_topic_illuminating:
+  count: 246745
+  mean: 0.01243388923787716
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1108119471731156
+----------------------------------------
+Stats for safety_topic_illuminating:
+  count: 246745
+  mean: 0.03372307442906645
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1805154527460685
+----------------------------------------
+Stats for social_and_cultural_topic_illuminating:
+  count: 246745
+  mean: 0.10583801090194331
+  min: 0.0
+  max: 1.0
+  std_dev: 0.3076301778926499
+----------------------------------------
+Stats for technology_and_privacy_topic_illuminating:
+  count: 246745
+  mean: 0.0011550386026059293
+  min: 0.0
+  max: 1.0
+  std_dev: 0.0339662257019001
+----------------------------------------
+Stats for womens_issue_topic_illuminating:
+  count: 246745
+  mean: 0.08090944092078867
+  min: 0.0
+  max: 1.0
+  std_dev: 0.2726959906024914
+----------------------------------------
+Stats for incivility_illuminating:
+  count: 246745
+  mean: 0.18752558309185596
+  min: 0.0
+  max: 1.0
+  std_dev: 0.39033285639043425
+----------------------------------------
+Stats for freefair_illuminating:
+  count: 246745
+  mean: 0.006415530203246266
+  min: 0.0
+  max: 1.0
+  std_dev: 0.07983965916421175
+----------------------------------------
+Stats for fraud_illuminating:
+  count: 246745
+  mean: 0.0026383513343735433
+  min: 0.0
+  max: 1.0
+  std_dev: 0.05129708019575728
+----------------------------------------
+================================================================================
+Processing Dataset 2: C:/Users/Arshunnu Bare/Desktop/SEM4/period/2024_fb_posts_president_scored_anon.csv
+Descriptive Stats for the Dataset (Overall):
+Stats for Facebook_Id:
+  count: 19009
+  unique_values: 21
+  most_common_value: 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064
+  most_common_count: 9013
+----------------------------------------
+Stats for post_id:
+  count: 19009
+  unique_values: 19009
+  most_common_value: 8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138
+  most_common_count: 1
+----------------------------------------
+Stats for Page Category:
+  count: 16537
+  unique_values: 6
+  most_common_value: PERSON
+  most_common_count: 9453
+----------------------------------------
+Stats for Page Admin Top Country:
+  count: 16280
+  unique_values: 1
+  most_common_value: US
+  most_common_count: 16280
+----------------------------------------
+Stats for Post Created:
+  count: 19009
+  unique_values: 18951
+  most_common_value: 2023-11-14 11:11:44 EST
+  most_common_count: 2
+----------------------------------------
+Stats for Post Created Date:
+  count: 19009
+  unique_values: 425
+  most_common_value: 2024-10-31
+  most_common_count: 103
+----------------------------------------
+Stats for Post Created Time:
+  count: 19009
+  unique_values: 16102
+  most_common_value: 19:42:00
+  most_common_count: 7
+----------------------------------------
+Stats for Type:
+  count: 16544
+  unique_values: 9
+  most_common_value: Link
+  most_common_count: 7404
+----------------------------------------
+Stats for Total Interactions:
+  count: 14398
+  mean: 2210.154813168496
+  min: 0.0
+  max: 470087.0
+  std_dev: 13066.168583849912
+----------------------------------------
+Stats for Likes:
+  count: 19009
+  mean: 2377.6954074385817
+  min: 0.0
+  max: 351979.0
+  std_dev: 11253.173660942848
+----------------------------------------
+Stats for Comments:
+  count: 19009
+  mean: 901.583197432795
+  min: 0.0
+  max: 93872.0
+  std_dev: 3681.88324663013
+----------------------------------------
+Stats for Shares:
+  count: 19009
+  mean: 320.53895523173236
+  min: 0.0
+  max: 76150.0
+  std_dev: 1722.114579655435
+----------------------------------------
+Stats for Love:
+  count: 19009
+  mean: 413.87732126887266
+  min: 0.0
+  max: 244482.0
+  std_dev: 3730.842312335024
+----------------------------------------
+Stats for Wow:
+  count: 19009
+  mean: 5.8683255300120996
+  min: 0.0
+  max: 4345.0
+  std_dev: 52.945585921667245
+----------------------------------------
+Stats for Haha:
+  count: 19009
+  mean: 105.71971171550318
+  min: 0.0
+  max: 99276.0
+  std_dev: 942.0094692244772
+----------------------------------------
+Stats for Sad:
+  count: 19009
+  mean: 10.172181598190331
+  min: 0.0
+  max: 56111.0
+  std_dev: 418.31400356540394
+----------------------------------------
+Stats for Angry:
+  count: 19009
+  mean: 20.05550002630333
+  min: 0.0
+  max: 11814.0
+  std_dev: 156.01598493667757
+----------------------------------------
+Stats for Care:
+  count: 19009
+  mean: 34.92903361565574
+  min: 0.0
+  max: 85236.0
+  std_dev: 790.0824307108217
+----------------------------------------
+Stats for Video Share Status:
+  count: 3271
+  unique_values: 3
+  most_common_value: owned
+  most_common_count: 3100
+----------------------------------------
+Stats for Is Video Owner?:
+  count: 16544
+  unique_values: 3
+  most_common_value: -
+  most_common_count: 13280
+----------------------------------------
+Stats for Post Views:
+  count: 16544
+  mean: 6485.058510638298
+  min: 0.0
+  max: 4276477.0
+  std_dev: 90390.22650804598
+----------------------------------------
+Stats for Total Views:
+  count: 16544
+  mean: 7461.847014023211
+  min: 0.0
+  max: 4462155.0
+  std_dev: 95973.37816684392
+----------------------------------------
+Stats for Total Views For All Crossposts:
+  count: 16544
+  mean: 3555.9379835589943
+  min: 0.0
+  max: 4499458.0
+  std_dev: 88091.38586181619
+----------------------------------------
+Stats for Video Length:
+  count: 3271
+  unique_values: 774
+  most_common_value: 00:00:30
+  most_common_count: 83
+----------------------------------------
+Stats for Overperforming Score:
+  count: 16544
+  mean: -2.744160420696325
+  min: -198.75
+  max: 246.78
+  std_dev: 7.8082409618565265
+----------------------------------------
+Stats for advocacy_msg_type_illuminating:
+  count: 19009
+  mean: 0.549266137092956
+  min: 0.0
+  max: 1.0
+  std_dev: 0.49756692789607515
+----------------------------------------
+Stats for issue_msg_type_illuminating:
+  count: 19009
+  mean: 0.4603082750276185
+  min: 0.0
+  max: 1.0
+  std_dev: 0.49842207712812725
+----------------------------------------
+Stats for attack_msg_type_illuminating:
+  count: 19009
+  mean: 0.2166868325530012
+  min: 0.0
+  max: 1.0
+  std_dev: 0.4119874380987227
+----------------------------------------
+Stats for image_msg_type_illuminating:
+  count: 19009
+  mean: 0.14856120784891366
+  min: 0.0
+  max: 1.0
+  std_dev: 0.35565541662033706
+----------------------------------------
+Stats for cta_msg_type_illuminating:
+  count: 19009
+  mean: 0.1328318165079699
+  min: 0.0
+  max: 1.0
+  std_dev: 0.3393928771072883
+----------------------------------------
+Stats for engagement_cta_subtype_illuminating:
+  count: 19009
+  mean: 0.0908517018254511
+  min: 0.0
+  max: 1.0
+  std_dev: 0.2873981038574723
+----------------------------------------
+Stats for fundraising_cta_subtype_illuminating:
+  count: 19009
+  mean: 0.01841233100110474
+  min: 0.0
+  max: 1.0
+  std_dev: 0.13443703756112188
+----------------------------------------
+Stats for voting_cta_subtype_illuminating:
+  count: 19009
+  mean: 0.023409963701404597
+  min: 0.0
+  max: 1.0
+  std_dev: 0.15120164450462673
+----------------------------------------
+Stats for covid_topic_illuminating:
+  count: 19009
+  mean: 0.05239623336314377
+  min: 0.0
+  max: 1.0
+  std_dev: 0.22282474748667114
+----------------------------------------
+Stats for economy_topic_illuminating:
+  count: 19009
+  mean: 0.09037824188542269
+  min: 0.0
+  max: 1.0
+  std_dev: 0.2867228893533314
+----------------------------------------
+Stats for education_topic_illuminating:
+  count: 19009
+  mean: 0.014992898100899574
+  min: 0.0
+  max: 1.0
+  std_dev: 0.12152411739007042
+----------------------------------------
+Stats for environment_topic_illuminating:
+  count: 19009
+  mean: 0.022252617181335158
+  min: 0.0
+  max: 1.0
+  std_dev: 0.14750402777523094
+----------------------------------------
+Stats for foreign_policy_topic_illuminating:
+  count: 19009
+  mean: 0.03687726866221264
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1884604354187574
+----------------------------------------
+Stats for governance_topic_illuminating:
+  count: 19009
+  mean: 0.03109053606186543
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1735624228606275
+----------------------------------------
+Stats for health_topic_illuminating:
+  count: 19009
+  mean: 0.04866116050291967
+  min: 0.0
+  max: 1.0
+  std_dev: 0.21515866694471955
+----------------------------------------
+Stats for immigration_topic_illuminating:
+  count: 19009
+  mean: 0.04082276816244937
+  min: 0.0
+  max: 1.0
+  std_dev: 0.19787943238751288
+----------------------------------------
+Stats for lgbtq_issues_topic_illuminating:
+  count: 19009
+  mean: 0.0033668262402020096
+  min: 0.0
+  max: 1.0
+  std_dev: 0.05792659770149026
+----------------------------------------
+Stats for military_topic_illuminating:
+  count: 19009
+  mean: 0.0055763059603345785
+  min: 0.0
+  max: 1.0
+  std_dev: 0.07446617199891045
+----------------------------------------
+Stats for race_and_ethnicity_topic_illuminating:
+  count: 19009
+  mean: 0.021568730601294123
+  min: 0.0
+  max: 1.0
+  std_dev: 0.14527050788629783
+----------------------------------------
+Stats for safety_topic_illuminating:
+  count: 19009
+  mean: 0.032195275921931714
+  min: 0.0
+  max: 1.0
+  std_dev: 0.17651838468058334
+----------------------------------------
+Stats for social_and_cultural_topic_illuminating:
+  count: 19009
+  mean: 0.06170761218370246
+  min: 0.0
+  max: 1.0
+  std_dev: 0.2406237369468944
+----------------------------------------
+Stats for technology_and_privacy_topic_illuminating:
+  count: 19009
+  mean: 0.0020516597401230995
+  min: 0.0
+  max: 1.0
+  std_dev: 0.04524876166740762
+----------------------------------------
+Stats for womens_issue_topic_illuminating:
+  count: 19009
+  mean: 0.0254616234415277
+  min: 0.0
+  max: 1.0
+  std_dev: 0.15752247196273153
+----------------------------------------
+Stats for incivility_illuminating:
+  count: 19009
+  mean: 0.1278867904676732
+  min: 0.0
+  max: 1.0
+  std_dev: 0.33396370954274457
+----------------------------------------
+Stats for scam_illuminating:
+  count: 18060
+  mean: 0.020210409745293468
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1407193983899193
+----------------------------------------
+Stats for freefair_illuminating:
+  count: 19009
+  mean: 0.0028407596401704457
+  min: 0.0
+  max: 1.0
+  std_dev: 0.053223018749759245
+----------------------------------------
+Stats for fraud_illuminating:
+  count: 19009
+  mean: 0.00862749224051765
+  min: 0.0
+  max: 1.0
+  std_dev: 0.0924827476784587
+----------------------------------------
+================================================================================
+Processing Dataset 3: C:/Users/Arshunnu Bare/Desktop/SEM4/period/2024_tw_posts_president_scored_anon.csv
+Descriptive Stats for the Dataset (Overall):
+Stats for id:
+  count: 27304
+  unique_values: 27304
+  most_common_value: cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d
+  most_common_count: 1
+----------------------------------------
+Stats for url:
+  count: 27304
+  unique_values: 27304
+  most_common_value: f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937
+  most_common_count: 1
+----------------------------------------
+Stats for source:
+  count: 27304
+  unique_values: 14
+  most_common_value: Twitter Web App
+  most_common_count: 14930
+----------------------------------------
+Stats for retweetCount:
+  count: 27304
+  mean: 1322.0551933782597
+  min: 0.0
+  max: 144615.0
+  std_dev: 3404.9418860146225
+----------------------------------------
+Stats for replyCount:
+  count: 27304
+  mean: 1063.7850131848813
+  min: 0.0
+  max: 121270.0
+  std_dev: 3174.9235122787168
+----------------------------------------
+Stats for likeCount:
+  count: 27304
+  mean: 6913.69282888954
+  min: 0.0
+  max: 915221.0
+  std_dev: 21589.912616632584
+----------------------------------------
+Stats for quoteCount:
+  count: 27304
+  mean: 128.08156314093173
+  min: 0.0
+  max: 123320.0
+  std_dev: 1131.512746792056
+----------------------------------------
+Stats for viewCount:
+  count: 27304
+  mean: 507084.7318341635
+  min: 5.0
+  max: 333502775.0
+  std_dev: 3212115.163351335
+----------------------------------------
+Stats for createdAt:
+  count: 27304
+  unique_values: 27014
+  most_common_value: 2023-10-06 04:55:21
+  most_common_count: 4
+----------------------------------------
+Stats for lang:
+  count: 27304
+  unique_values: 12
+  most_common_value: en
+  most_common_count: 27281
+----------------------------------------
+Stats for bookmarkCount:
+  count: 27304
+  mean: 136.21352182830356
+  min: 0.0
+  max: 42693.0
+  std_dev: 712.5672453544692
+----------------------------------------
+Stats for isReply:
+  count: 27304
+  unique_values: 2
+  most_common_value: False
+  most_common_count: 23930
+----------------------------------------
+Stats for isRetweet:
+  count: 27304
+  unique_values: 1
+  most_common_value: False
+  most_common_count: 27304
+----------------------------------------
+Stats for isQuote:
+  count: 27304
+  unique_values: 2
+  most_common_value: False
+  most_common_count: 24064
+----------------------------------------
+Stats for isConversationControlled:
+  count: 27304
+  unique_values: 2
+  most_common_value: False
+  most_common_count: 27296
+----------------------------------------
+Stats for quoteId:
+  count: 3287
+  mean: 1.7642983966589504e+18
+  min: 7.912639390153769e+17
+  max: 1.8535761683325583e+18
+  std_dev: 6.8936377884959416e+16
+----------------------------------------
+Stats for inReplyToId:
+  count: 3345
+  mean: 1.7582857247419999e+18
+  min: 1.2400673584227e+18
+  max: 1.853530653414859e+18
+  std_dev: 4.360544623583901e+16
+----------------------------------------
+Stats for month_year:
+  count: 27304
+  unique_values: 15
+  most_common_value: 2024-10
+  most_common_count: 3586
+----------------------------------------
+Stats for illuminating_scored_message:
+  count: 27304
+  unique_values: 27136
+  most_common_value: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd
+  most_common_count: 21
+----------------------------------------
+Stats for election_integrity_Truth_illuminating:
+  count: 26034
+  mean: 0.03714373511561804
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1891139287764887
+----------------------------------------
+Stats for advocacy_msg_type_illuminating:
+  count: 26034
+  mean: 0.5636859491434278
+  min: 0.0
+  max: 1.0
+  std_dev: 0.495927514745553
+----------------------------------------
+Stats for issue_msg_type_illuminating:
+  count: 26034
+  mean: 0.507682261657832
+  min: 0.0
+  max: 1.0
+  std_dev: 0.49994097937238613
+----------------------------------------
+Stats for attack_msg_type_illuminating:
+  count: 26034
+  mean: 0.3075977567795959
+  min: 0.0
+  max: 1.0
+  std_dev: 0.4614990539575964
+----------------------------------------
+Stats for image_msg_type_illuminating:
+  count: 26034
+  mean: 0.22643466236460014
+  min: 0.0
+  max: 1.0
+  std_dev: 0.4185236027327846
+----------------------------------------
+Stats for cta_msg_type_illuminating:
+  count: 26034
+  mean: 0.10966428516555274
+  min: 0.0
+  max: 1.0
+  std_dev: 0.31247084619957916
+----------------------------------------
+Stats for engagement_cta_subtype_illuminating:
+  count: 26034
+  mean: 0.0669124990397173
+  min: 0.0
+  max: 1.0
+  std_dev: 0.24987039943133946
+----------------------------------------
+Stats for fundraising_cta_subtype_illuminating:
+  count: 26034
+  mean: 0.007874318199277867
+  min: 0.0
+  max: 1.0
+  std_dev: 0.08838729157618978
+----------------------------------------
+Stats for voting_cta_subtype_illuminating:
+  count: 26034
+  mean: 0.016785741722363065
+  min: 0.0
+  max: 1.0
+  std_dev: 0.12846781930582143
+----------------------------------------
+Stats for covid_topic_illuminating:
+  count: 26034
+  mean: 0.0076054390412537455
+  min: 0.0
+  max: 1.0
+  std_dev: 0.08687690336472358
+----------------------------------------
+Stats for economy_topic_illuminating:
+  count: 26034
+  mean: 0.16021356687408772
+  min: 0.0
+  max: 1.0
+  std_dev: 0.3668040074257231
+----------------------------------------
+Stats for education_topic_illuminating:
+  count: 26034
+  mean: 0.01843742797879696
+  min: 0.0
+  max: 1.0
+  std_dev: 0.13452690893766805
+----------------------------------------
+Stats for environment_topic_illuminating:
+  count: 26034
+  mean: 0.028539602058846123
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1665085378386611
+----------------------------------------
+Stats for foreign_policy_topic_illuminating:
+  count: 26034
+  mean: 0.042252439118076364
+  min: 0.0
+  max: 1.0
+  std_dev: 0.2011645359069277
+----------------------------------------
+Stats for governance_topic_illuminating:
+  count: 26034
+  mean: 0.022969962356917877
+  min: 0.0
+  max: 1.0
+  std_dev: 0.14980768734026853
+----------------------------------------
+Stats for health_topic_illuminating:
+  count: 26034
+  mean: 0.05565798571099332
+  min: 0.0
+  max: 1.0
+  std_dev: 0.2292600583127994
+----------------------------------------
+Stats for immigration_topic_illuminating:
+  count: 26034
+  mean: 0.06529922409157256
+  min: 0.0
+  max: 1.0
+  std_dev: 0.2470531024387493
+----------------------------------------
+Stats for lgbtq_issues_topic_illuminating:
+  count: 26034
+  mean: 0.0030729046631328264
+  min: 0.0
+  max: 1.0
+  std_dev: 0.05534854939439807
+----------------------------------------
+Stats for military_topic_illuminating:
+  count: 26034
+  mean: 0.010985634170699855
+  min: 0.0
+  max: 1.0
+  std_dev: 0.10423507093376684
+----------------------------------------
+Stats for race_and_ethnicity_topic_illuminating:
+  count: 26034
+  mean: 0.015402934623953292
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1231490325943469
+----------------------------------------
+Stats for safety_topic_illuminating:
+  count: 26034
+  mean: 0.03760467081508796
+  min: 0.0
+  max: 1.0
+  std_dev: 0.19023816532961213
+----------------------------------------
+Stats for social_and_cultural_topic_illuminating:
+  count: 26034
+  mean: 0.05197050011523392
+  min: 0.0
+  max: 1.0
+  std_dev: 0.22196749138783
+----------------------------------------
+Stats for technology_and_privacy_topic_illuminating:
+  count: 26034
+  mean: 0.0020357993393254974
+  min: 0.0
+  max: 1.0
+  std_dev: 0.04507388224210889
+----------------------------------------
+Stats for womens_issue_topic_illuminating:
+  count: 26034
+  mean: 0.02331566413152032
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1509040885384702
+----------------------------------------
+Stats for incivility_illuminating:
+  count: 26034
+  mean: 0.17857417223630637
+  min: 0.0
+  max: 1.0
+  std_dev: 0.3829953488574298
+----------------------------------------
+Stats for scam_illuminating:
+  count: 26034
+  mean: 0.012368441269109626
+  min: 0.0
+  max: 1.0
+  std_dev: 0.1105235854000503
+----------------------------------------
+Stats for freefair_illuminating:
+  count: 27304
+  mean: 0.0014283621447406974
+  min: 0.0
+  max: 1.0
+  std_dev: 0.03776667745942405
+----------------------------------------
+Stats for fraud_illuminating:
+  count: 27304
+  mean: 0.0027468502783474947
+  min: 0.0
+  max: 1.0
+  std_dev: 0.05233837112383072
+----------------------------------------

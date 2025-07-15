@@ -1,0 +1,303 @@
+Processing Dataset 1: C:/Users/Arshunnu Bare/Desktop/SEM4/period/2024_fb_ads_president_scored_anon.csv
+Numeric Descriptive Stats:
+                                              count           mean            std    min      25%       50%        75%        max
+estimated_audience_size                    246745.0  556462.855969  409864.758823    0.0  75000.0  300000.0  1000001.0  1000001.0
+estimated_impressions                      246745.0   45601.525952  136790.769901  499.0    499.0    3499.0    22499.0  1000000.0
+estimated_spend                            246745.0    1061.291434    4992.560749   49.0     49.0      49.0      449.0   474999.0
+scam_illuminating                          246745.0       0.071633       0.257879    0.0      0.0       0.0        0.0        1.0
+election_integrity_Truth_illuminating      246745.0       0.050088       0.218127    0.0      0.0       0.0        0.0        1.0
+advocacy_msg_type_illuminating             246745.0       0.548631       0.497630    0.0      0.0       1.0        1.0        1.0
+issue_msg_type_illuminating                246745.0       0.381649       0.485792    0.0      0.0       0.0        1.0        1.0
+attack_msg_type_illuminating               246745.0       0.271856       0.444917    0.0      0.0       0.0        1.0        1.0
+image_msg_type_illuminating                246745.0       0.222704       0.416062    0.0      0.0       0.0        0.0        1.0
+cta_msg_type_illuminating                  246745.0       0.572769       0.494677    0.0      0.0       1.0        1.0        1.0
+engagement_cta_subtype_illuminating        246745.0       0.124870       0.330572    0.0      0.0       0.0        0.0        1.0
+fundraising_cta_subtype_illuminating       246745.0       0.228487       0.419859    0.0      0.0       0.0        0.0        1.0
+voting_cta_subtype_illuminating            246745.0       0.143845       0.350933    0.0      0.0       0.0        0.0        1.0
+covid_topic_illuminating                   246745.0       0.024876       0.155747    0.0      0.0       0.0        0.0        1.0
+economy_topic_illuminating                 246745.0       0.122122       0.327427    0.0      0.0       0.0        0.0        1.0
+education_topic_illuminating               246745.0       0.014327       0.118833    0.0      0.0       0.0        0.0        1.0
+environment_topic_illuminating             246745.0       0.021249       0.144212    0.0      0.0       0.0        0.0        1.0
+foreign_policy_topic_illuminating          246745.0       0.005265       0.072366    0.0      0.0       0.0        0.0        1.0
+governance_topic_illuminating              246745.0       0.025642       0.158065    0.0      0.0       0.0        0.0        1.0
+health_topic_illuminating                  246745.0       0.109190       0.311878    0.0      0.0       0.0        0.0        1.0
+immigration_topic_illuminating             246745.0       0.033569       0.180118    0.0      0.0       0.0        0.0        1.0
+lgbtq_issues_topic_illuminating            246745.0       0.003230       0.056742    0.0      0.0       0.0        0.0        1.0
+military_topic_illuminating                246745.0       0.002176       0.046601    0.0      0.0       0.0        0.0        1.0
+race_and_ethnicity_topic_illuminating      246745.0       0.012434       0.110812    0.0      0.0       0.0        0.0        1.0
+safety_topic_illuminating                  246745.0       0.033723       0.180516    0.0      0.0       0.0        0.0        1.0
+social_and_cultural_topic_illuminating     246745.0       0.105838       0.307631    0.0      0.0       0.0        0.0        1.0
+technology_and_privacy_topic_illuminating  246745.0       0.001155       0.033966    0.0      0.0       0.0        0.0        1.0
+womens_issue_topic_illuminating            246745.0       0.080909       0.272697    0.0      0.0       0.0        0.0        1.0
+incivility_illuminating                    246745.0       0.187526       0.390334    0.0      0.0       0.0        0.0        1.0
+freefair_illuminating                      246745.0       0.006416       0.079840    0.0      0.0       0.0        0.0        1.0
+fraud_illuminating                         246745.0       0.002638       0.051297    0.0      0.0       0.0        0.0        1.0
+
+Categorical Descriptive Stats:
+Stats for page_id:
+  count: 246745
+  unique_values: 4475
+  most_common_value: 4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d
+  most_common_count: 55503
+----------------------------------------
+Stats for ad_id:
+  count: 246745
+  unique_values: 246745
+  most_common_value: 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc
+  most_common_count: 1
+----------------------------------------
+Stats for ad_creation_time:
+  count: 246745
+  unique_values: 547
+  most_common_value: 2024-10-27
+  most_common_count: 8619
+----------------------------------------
+Stats for bylines:
+  count: 245736
+  unique_values: 3790
+  most_common_value: HARRIS FOR PRESIDENT
+  most_common_count: 49788
+----------------------------------------
+Stats for currency:
+  count: 246745
+  unique_values: 18
+  most_common_value: USD
+  most_common_count: 246599
+----------------------------------------
+Stats for delivery_by_region:
+  count: 246745
+  unique_values: 141122
+  most_common_value: {}
+  most_common_count: 30989
+----------------------------------------
+Stats for demographic_distribution:
+  count: 246745
+  unique_values: 215622
+  most_common_value: {}
+  most_common_count: 30989
+----------------------------------------
+Stats for publisher_platforms:
+  count: 246745
+  unique_values: 9
+  most_common_value: ['facebook', 'instagram']
+  most_common_count: 214434
+----------------------------------------
+Stats for illuminating_scored_message:
+  count: 246745
+  unique_values: 26338
+  most_common_value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  most_common_count: 5972
+----------------------------------------
+Stats for illuminating_mentions:
+  count: 246745
+  unique_values: 278
+  most_common_value: []
+  most_common_count: 73205
+----------------------------------------
+================================================================================
+Processing Dataset 2: C:/Users/Arshunnu Bare/Desktop/SEM4/period/2024_fb_posts_president_scored_anon.csv
+Numeric Descriptive Stats:
+                                                      count         mean           std     min    25%     50%     75%         max
+Likes                                               19009.0  2377.695407  11253.469669    0.00  31.00  139.00  738.00   351979.00
+Comments                                            19009.0   901.583197   3681.980096    0.00   8.00   48.00  354.00    93872.00
+Shares                                              19009.0   320.538955   1722.159879    0.00   3.00   21.00  102.00    76150.00
+Love                                                19009.0   413.877321   3730.940450    0.00   0.00    4.00   70.00   244482.00
+Wow                                                 19009.0     5.868326     52.946979    0.00   0.00    1.00    3.00     4345.00
+Haha                                                19009.0   105.719712    942.034248    0.00   0.00    2.00   29.00    99276.00
+Sad                                                 19009.0    10.172182    418.325007    0.00   0.00    0.00    2.00    56111.00
+Angry                                               19009.0    20.055500    156.020089    0.00   0.00    1.00    9.00    11814.00
+Care                                                19009.0    34.929034    790.103213    0.00   0.00    0.00    6.00    85236.00
+Post Views                                          16544.0  6485.058511  90392.958445    0.00   0.00    0.00    0.00  4276477.00
+Total Views                                         16544.0  7461.847014  95976.278848    0.00   0.00    0.00    0.00  4462155.00
+Total Views For All Crossposts                      16544.0  3555.937984  88094.048319    0.00   0.00    0.00    0.00  4499458.00
+Sponsor Id                                              0.0          NaN           NaN     NaN    NaN     NaN     NaN         NaN
+Sponsor Name                                            0.0          NaN           NaN     NaN    NaN     NaN     NaN         NaN
+Sponsor Category                                        0.0          NaN           NaN     NaN    NaN     NaN     NaN         NaN
+Overperforming Score                                16544.0    -2.744160      7.808477 -198.75  -3.87   -1.62    1.16      246.78
+illuminating_scored_messageelection_integrity_T...      0.0          NaN           NaN     NaN    NaN     NaN     NaN         NaN
+advocacy_msg_type_illuminating                      19009.0     0.549266      0.497580    0.00   0.00    1.00    1.00        1.00
+issue_msg_type_illuminating                         19009.0     0.460308      0.498435    0.00   0.00    0.00    1.00        1.00
+attack_msg_type_illuminating                        19009.0     0.216687      0.411998    0.00   0.00    0.00    0.00        1.00
+image_msg_type_illuminating                         19009.0     0.148561      0.355665    0.00   0.00    0.00    0.00        1.00
+cta_msg_type_illuminating                           19009.0     0.132832      0.339402    0.00   0.00    0.00    0.00        1.00
+engagement_cta_subtype_illuminating                 19009.0     0.090852      0.287406    0.00   0.00    0.00    0.00        1.00
+fundraising_cta_subtype_illuminating                19009.0     0.018412      0.134441    0.00   0.00    0.00    0.00        1.00
+voting_cta_subtype_illuminating                     19009.0     0.023410      0.151206    0.00   0.00    0.00    0.00        1.00
+covid_topic_illuminating                            19009.0     0.052396      0.222831    0.00   0.00    0.00    0.00        1.00
+economy_topic_illuminating                          19009.0     0.090378      0.286730    0.00   0.00    0.00    0.00        1.00
+education_topic_illuminating                        19009.0     0.014993      0.121527    0.00   0.00    0.00    0.00        1.00
+environment_topic_illuminating                      19009.0     0.022253      0.147508    0.00   0.00    0.00    0.00        1.00
+foreign_policy_topic_illuminating                   19009.0     0.036877      0.188465    0.00   0.00    0.00    0.00        1.00
+governance_topic_illuminating                       19009.0     0.031091      0.173567    0.00   0.00    0.00    0.00        1.00
+health_topic_illuminating                           19009.0     0.048661      0.215164    0.00   0.00    0.00    0.00        1.00
+immigration_topic_illuminating                      19009.0     0.040823      0.197885    0.00   0.00    0.00    0.00        1.00
+lgbtq_issues_topic_illuminating                     19009.0     0.003367      0.057928    0.00   0.00    0.00    0.00        1.00
+military_topic_illuminating                         19009.0     0.005576      0.074468    0.00   0.00    0.00    0.00        1.00
+race_and_ethnicity_topic_illuminating               19009.0     0.021569      0.145274    0.00   0.00    0.00    0.00        1.00
+safety_topic_illuminating                           19009.0     0.032195      0.176523    0.00   0.00    0.00    0.00        1.00
+social_and_cultural_topic_illuminating              19009.0     0.061708      0.240630    0.00   0.00    0.00    0.00        1.00
+technology_and_privacy_topic_illuminating           19009.0     0.002052      0.045250    0.00   0.00    0.00    0.00        1.00
+womens_issue_topic_illuminating                     19009.0     0.025462      0.157527    0.00   0.00    0.00    0.00        1.00
+incivility_illuminating                             19009.0     0.127887      0.333972    0.00   0.00    0.00    0.00        1.00
+scam_illuminating                                   18060.0     0.020210      0.140723    0.00   0.00    0.00    0.00        1.00
+freefair_illuminating                               19009.0     0.002841      0.053224    0.00   0.00    0.00    0.00        1.00
+fraud_illuminating                                  19009.0     0.008627      0.092485    0.00   0.00    0.00    0.00        1.00
+
+Categorical Descriptive Stats:
+Stats for Facebook_Id:
+  count: 19009
+  unique_values: 21
+  most_common_value: 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064
+  most_common_count: 9013
+----------------------------------------
+Stats for post_id:
+  count: 19009
+  unique_values: 19009
+  most_common_value: 8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138
+  most_common_count: 1
+----------------------------------------
+Stats for Page Category:
+  count: 16537
+  unique_values: 6
+  most_common_value: PERSON
+  most_common_count: 9453
+----------------------------------------
+Stats for Page Admin Top Country:
+  count: 16280
+  unique_values: 1
+  most_common_value: US
+  most_common_count: 16280
+----------------------------------------
+Stats for Post Created:
+  count: 19009
+  unique_values: 18951
+  most_common_value: 2023-11-14 11:11:44 EST
+  most_common_count: 2
+----------------------------------------
+Stats for Post Created Date:
+  count: 19009
+  unique_values: 425
+  most_common_value: 2024-10-31
+  most_common_count: 103
+----------------------------------------
+Stats for Post Created Time:
+  count: 19009
+  unique_values: 16102
+  most_common_value: 19:42:00
+  most_common_count: 7
+----------------------------------------
+Stats for Type:
+  count: 16544
+  unique_values: 9
+  most_common_value: Link
+  most_common_count: 7404
+----------------------------------------
+Stats for Total Interactions:
+  count: 19009
+  unique_values: 5665
+  most_common_value: 23
+  most_common_count: 115
+----------------------------------------
+Stats for Video Share Status:
+  count: 3271
+  unique_values: 3
+  most_common_value: owned
+  most_common_count: 3100
+----------------------------------------
+Stats for Is Video Owner?:
+  count: 16544
+  unique_values: 3
+  most_common_value: -
+  most_common_count: 13280
+----------------------------------------
+Stats for Video Length:
+  count: 3271
+  unique_values: 774
+  most_common_value: 00:00:30
+  most_common_count: 83
+----------------------------------------
+================================================================================
+Processing Dataset 3: C:/Users/Arshunnu Bare/Desktop/SEM4/period/2024_tw_posts_president_scored_anon.csv
+Numeric Descriptive Stats:
+                                             count          mean           std           min           25%           50%           75%           max
+retweetCount                               27304.0  1.322055e+03  3.405004e+03  0.000000e+00  8.400000e+01  3.330000e+02  1.071000e+03  1.446150e+05
+replyCount                                 27304.0  1.063785e+03  3.174982e+03  0.000000e+00  4.300000e+01  1.310000e+02  5.012500e+02  1.212700e+05
+likeCount                                  27304.0  6.913693e+03  2.159031e+04  0.000000e+00  3.930000e+02  1.406000e+03  5.010000e+03  9.152210e+05
+quoteCount                                 27304.0  1.280816e+02  1.131533e+03  0.000000e+00  5.000000e+00  1.700000e+01  6.900000e+01  1.233200e+05
+viewCount                                  27304.0  5.070847e+05  3.212174e+06  5.000000e+00  2.785275e+04  7.094200e+04  3.036630e+05  3.335028e+08
+bookmarkCount                              27304.0  1.362135e+02  7.125803e+02  0.000000e+00  4.000000e+00  2.100000e+01  7.600000e+01  4.269300e+04
+quoteId                                     3287.0  1.764298e+18  6.894687e+16  7.912639e+17  1.726459e+18  1.756496e+18  1.816599e+18  1.853576e+18
+inReplyToId                                 3345.0  1.758286e+18  4.361197e+16  1.240067e+18  1.726801e+18  1.746641e+18  1.789226e+18  1.853531e+18
+election_integrity_Truth_illuminating      26034.0  3.714374e-02  1.891176e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+advocacy_msg_type_illuminating             26034.0  5.636859e-01  4.959370e-01  0.000000e+00  0.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00
+issue_msg_type_illuminating                26034.0  5.076823e-01  4.999506e-01  0.000000e+00  0.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00
+attack_msg_type_illuminating               26034.0  3.075978e-01  4.615079e-01  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00  1.000000e+00
+image_msg_type_illuminating                26034.0  2.264347e-01  4.185316e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+cta_msg_type_illuminating                  26034.0  1.096643e-01  3.124768e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+engagement_cta_subtype_illuminating        26034.0  6.691250e-02  2.498752e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+fundraising_cta_subtype_illuminating       26034.0  7.874318e-03  8.838899e-02  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+voting_cta_subtype_illuminating            26034.0  1.678574e-02  1.284703e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+covid_topic_illuminating                   26034.0  7.605439e-03  8.687857e-02  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+economy_topic_illuminating                 26034.0  1.602136e-01  3.668111e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+education_topic_illuminating               26034.0  1.843743e-02  1.345295e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+environment_topic_illuminating             26034.0  2.853960e-02  1.665117e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+foreign_policy_topic_illuminating          26034.0  4.225244e-02  2.011684e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+governance_topic_illuminating              26034.0  2.296996e-02  1.498106e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+health_topic_illuminating                  26034.0  5.565799e-02  2.292645e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+immigration_topic_illuminating             26034.0  6.529922e-02  2.470578e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+lgbtq_issues_topic_illuminating            26034.0  3.072905e-03  5.534961e-02  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+military_topic_illuminating                26034.0  1.098563e-02  1.042371e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+race_and_ethnicity_topic_illuminating      26034.0  1.540293e-02  1.231514e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+safety_topic_illuminating                  26034.0  3.760467e-02  1.902418e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+social_and_cultural_topic_illuminating     26034.0  5.197050e-02  2.219718e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+technology_and_privacy_topic_illuminating  26034.0  2.035799e-03  4.507475e-02  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+womens_issue_topic_illuminating            26034.0  2.331566e-02  1.509070e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+incivility_illuminating                    26034.0  1.785742e-01  3.830027e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+scam_illuminating                          26034.0  1.236844e-02  1.105257e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+freefair_illuminating                      27304.0  1.428362e-03  3.776737e-02  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+fraud_illuminating                         27304.0  2.746850e-03  5.233933e-02  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00
+
+Categorical Descriptive Stats:
+Stats for id:
+  count: 27304
+  unique_values: 27304
+  most_common_value: cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d
+  most_common_count: 1
+----------------------------------------
+Stats for url:
+  count: 27304
+  unique_values: 27304
+  most_common_value: f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937
+  most_common_count: 1
+----------------------------------------
+Stats for source:
+  count: 27304
+  unique_values: 14
+  most_common_value: Twitter Web App
+  most_common_count: 14930
+----------------------------------------
+Stats for createdAt:
+  count: 27304
+  unique_values: 27014
+  most_common_value: 2023-10-06 04:55:21
+  most_common_count: 4
+----------------------------------------
+Stats for lang:
+  count: 27304
+  unique_values: 12
+  most_common_value: en
+  most_common_count: 27281
+----------------------------------------
+Stats for month_year:
+  count: 27304
+  unique_values: 15
+  most_common_value: 2024-10
+  most_common_count: 3586
+----------------------------------------
+Stats for illuminating_scored_message:
+  count: 27304
+  unique_values: 27136
+  most_common_value: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd
+  most_common_count: 21
+----------------------------------------
+================================================================================
